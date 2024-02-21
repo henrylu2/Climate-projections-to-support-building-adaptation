@@ -9,8 +9,8 @@ import pandas as pd
 from glob import glob
 import numpy as np
 
-in_path = r'K:\Airport Station weatherfiles (BC CanRCM4)\\'
-out_path = r'K:\Standardized Weatherfiles\\'
+in_path = "input_path\\"
+out_path = "output_path\\"
 
 files = sorted(glob(in_path+'Weatherfile*.csv'))
 
